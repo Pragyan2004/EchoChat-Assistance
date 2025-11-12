@@ -37,8 +37,8 @@ It leverages **Groq's LLaMA 3.1 model** to summarize reviews, analyze sentiments
 ### 1️⃣ Clone this Repository
 
 ```bash
-git clone https://github.com/pragyan2004/echocart-assistant.git
-cd echocart-assistant
+git clone https://github.com/Pragyan2004/EchoChat-Assistance.git
+cd EchoChat-Assistance
 ```
 
 ### 2️⃣ Setup the Backend
