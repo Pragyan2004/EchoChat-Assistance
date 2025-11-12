@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 380px;
+  margin: 0;
+  background: #f9fafb;
+}
+
+header {
+  background: #2563eb;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+header img {
+  width: 32px;
+  height: 32px;
+}
+header h1 {
+  font-size: 16px;
+  margin: 0;
+}
+.status.connected {
+  font-size: 12px;
+  color: #22c55e;
+}
+
+.card {
+  background: #fff;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 14px;
+  color: #1e40af;
+}
+
+.actions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 8px;
+}
+
+button {
+  padding: 8px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background: #1e40af;
+}
+
+#chat-log {
+  height: 120px;
+  overflow-y: auto;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+#chat-log .user { color: #1e40af; }
+#chat-log .bot { color: #047857; }
+
+.input-row {
+  display: flex;
+  gap: 5px;
+}
+.input-row input {
+  flex: 1;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  font-size: 11px;
+  padding: 8px;
+  color: #666;
+}

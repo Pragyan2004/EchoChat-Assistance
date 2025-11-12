@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Echocart Assistant</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <img src="icons/icon48.png" alt="Logo" />
+    <div>
+      <h1>Echocart Assistant</h1>
+      <span class="status connected">● Connected</span>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>Product Information</h2>
+    <div id="product-info">
+      <h3 id="product-title">Loading product...</h3>
+      <p id="product-description"></p>
+      <p class="loading">📖 Loading reviews...</p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Quick Actions</h2>
+    <div class="actions-grid">
+      <button id="summarize-btn">📚 Summarize</button>
+      <button id="analyze-btn">🔍 Analyze</button>
+      <button id="compare-btn">⚖️ Compare</button>
+      <button id="proscons-btn">✅❌ Pros & Cons</button>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>AI Assistant</h2>
+    <div id="chat-log"></div>
+    <div class="input-row">
+      <input id="user-input" type="text" placeholder="Ask about this product..." />
+      <button id="send-btn">Send</button>
+    </div>
+  </section>
+
+  <footer>
+    <small>Powered by LLaMA/Groq • Echocart ©2025</small>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
